@@ -4,10 +4,28 @@
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 
-	* Functions
-	* Parameters
-	* Arguments
-	* `if` statements
+	* Functions - "A function is a command that can be called in Javascript that executes code. You plug in some variable inputs and the function will produce or return what it's been programmed to based on the inputs.
+    
+	* Parameters - Paramenters are the varible input that are plugged into the function. These will cause the end result of the function to vary because the inputs are what the function needs to work in the way that it's programmed. Some functions don't take parameters and are known as anonymous functions.
+    
+	* Arguments - Arguments are what are put in place for the parameters of an function. If a function needs for example (x,y) then the arguments are the values that will go in the place of x and y within the function.
+    
+	* `if` statements - "If" statements are some conditions that can be entered into a JS program to determine when code should be run or if something else should happen. The basic structure goes like this:
+        if (some condition, usually has a boolean of true){
+            then do this code;
+        }
+        
+        There are also " else if" to add an additional condition to the original "if" statement, and "else" to determine which code should run if the "if" or "if else" conditions aren't satified.
+        
+        example:
+        
+        if  (some condition){
+            do this code;
+        } else if (some addtl. condition){
+            do this code;
+        } else {
+            do this code;
+        }
 
 2. Install Node and NPM.  NPM comes packaged with Node. https://nodejs.org/en/download/
 
